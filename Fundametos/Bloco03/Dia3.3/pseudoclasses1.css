@@ -1,0 +1,13 @@
+h1, p {
+    text-align: center;
+}
+li:active {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li:hover {
+    background-color: brown;
+    color: aliceblue;
+}
+.list {
+    list-style: none;
+}
