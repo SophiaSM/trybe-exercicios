@@ -1,0 +1,28 @@
+div:hover {
+    border-style: solid;
+}
+
+.cp{
+    width: fit-content;
+    color: red
+}
+
+.cs{
+    width: fit-content;
+    color: blue;
+}
+
+.cc{
+    width: fit-content;
+    color: brown;
+}
+
+.ce{
+    width: fit-content;
+    color: darkgreen;
+}
+
+.ccl{
+    width: fit-content;
+    color: aqua;
+}
