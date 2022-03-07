@@ -1,0 +1,42 @@
+body{
+    background-color: slategrey;
+}
+.cabecalho {
+ background-color: rgb(86, 163, 226);
+ color: aliceblue;
+ padding: 15px;
+ margin-bottom: 8px;
+ text-align: center;
+}
+
+.lateral{ 
+    background-color: darkblue;
+    width: 540px;
+    float: right;
+    margin-top: 50px;
+}
+
+img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.imagem1 {
+  text-align: center;
+}
+
+.subtitulo {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.rodape{
+    background-color: darkslategrey;
+    color: aliceblue;
+    padding: 15px;
+    text-align: center;
+}
+
