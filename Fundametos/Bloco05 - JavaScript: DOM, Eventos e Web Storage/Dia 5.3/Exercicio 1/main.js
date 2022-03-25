@@ -29,7 +29,7 @@ function classNone(event) {
 function textoTech (){
   let tech = document.getElementsByClassName("tech")[0]
   tech.innerText = input.value
-  input.addEventListener("keyup", texto)
+  input.addEventListener("keydown")
 }
 
 // 4. Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy', ele
