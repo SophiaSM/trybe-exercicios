@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trybe-Trip</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="title">TrybeTrip</h1>
+  </header>
+  <div class="principal-container">
+    <form action="" method="get">
+      <label for="name"></label> Nome:
+      <input type="text" name="name" id="name" class="input-inicial label" minlength="10" maxlength="40">
+      <br>
+      <label for="email"></label> Email:
+      <input type="email" name="email" id="email" class="input-inicial label" minlength="10" maxlength="50">
+      <fieldset class="fieldset">
+        <legend>Destino Preferido:</legend>
+        <label for="Cidade">Cidade</label>
+        <input type="radio" name="destino" id="Cidade">
+        <label for="Campo">Campo</label>
+        <input type="radio" name="destino" id="Campo">
+        <label for="Praia">Praia</label>
+        <input type="radio" name="destino" id="Praia">
+        <label for="Montanhas">Montanhas</label>
+        <input type="radio" name="destino" id="Montanhas">
+      </fieldset>
+      <div class="pergunta">
+        <p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip</p>
+        <textarea name="resposta" id="" cols="30" rows="10" maxlength="500"></textarea>
+      </div>
+
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
